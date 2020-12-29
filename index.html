@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>GPA Calculator</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Cairo&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <div class="headersDiv">
+    <img class="creatorImg" src="Spoodermin.png" alt="Creator of Website">
+    <h1 class="gpaHeader1">GPA Calculator</h1>
+    <h1 class="gpaHeader2">حساب المعدل التراكمي</h1>
+  </div>
+
+  <div id="contentDivID" class="contentDiv">
+    <div class="rowcontainer">
+      <div class="boxDiv">
+      <h1 class="divTitle">المعدل التراكمي</h1>
+      <form class="divForm">
+<div class="fieldDiv">
+  <input class="inputField" type="text" id="prevHours" name="prevHours" value="0">
+  <label class="inputLabel" for="prevHours">عدد الساعات السابقة</label>
+</div>
+
+<div class="fieldDiv">
+  <input class="inputField" type="text" id="prevGPA" name="prevGPA" value="0">
+  <label class="inputLabel" for="prevGPA">المعدل التراكمي السابق</label>
+</div>
+      </form>
+      </div>
+    </div>
+    <div class="rowcontainer">
+      <div class="boxDiv">
+      <h1 class="divTitle">نتائج الفصل الحالي</h1>
+      <div class="infoDiv">
+        <h2 id="curHours" class="infoContent"></h2>
+        <h2 class="infoHeader">عدد الساعات</h2>
+      </div>
+      <div class="infoDiv">
+        <h2 id="curGPA" class="infoContent"></h2>
+        <h2 class="infoHeader">المعدل</h2>
+      </div>
+      </div>
+
+
+      <div class="boxDiv">
+      <h1 class="divTitle">نتائج المعدل التراكمي</h1>
+      <div class="infoDiv">
+        <h2 id="cumHours" class="infoContent"></h2>
+        <h2 class="infoHeader">عدد الساعات</h2>
+      </div>
+      <div class="infoDiv">
+        <h2 id="cumGPA" class="infoContent"></h2>
+        <h2 class="infoHeader">المعدل</h2>
+      </div>
+      </div>
+
+
+
+
+    </div>
+
+    <div class="rowcontainer">
+      <div class="boxDiv">
+      <h1 class="divTitle">المواد</h1>
+      <div>
+        <table id="gradesTable" class="subTable">
+          <tr class="rowsPC">
+            <td class="subHeader">
+              <h2 class="subHeader">عدد النقاط</h2>
+            </td>
+            <td class="subHeader">
+              <h2 class="subHeader">التقدير</h2>
+            </td>
+            <td class="subHeader">
+              <h2 class="subHeader">عدد الساعات</h2>
+            </td>
+            <td class="subHeader">
+              <h2 class="subHeader">الدرجة</h2>
+            </td>
+            <td class="subHeader">
+              <h2 class="subHeader">اسم المادة</h2>
+            </td>
+          </tr>
+        </table>
+        <tr>
+          <div class="addButtonDiv">
+            <input class="calcButton" type="button" value="أضف مادة" onclick="addSub()">
+          </div>
+        </tr>
+        <div class="calcButtonDiv">
+          <input class="calcButton" type="button" value="احسب معدلي" onclick="calcGPA()">
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+<script src="app.js">
+
+</script>
+</body>
+
+</html>

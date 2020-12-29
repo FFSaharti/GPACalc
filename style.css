@@ -1,0 +1,156 @@
+body {
+  background-color: white;
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Regular Size */
+
+.creatorImg {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.headersDiv{
+  text-align: center;
+}
+
+.gpaHeader1 {
+  font-family: 'Cabin', sans-serif;
+}
+
+.gpaHeader2 {
+  font-family: 'Cairo', sans-serif;
+}
+
+.contentDiv{
+  background-color: #E1E1E1;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.rowcontainer{
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+
+.boxDiv{
+  flex: 1;
+  border: solid silver 1px;
+  margin: 25px;
+  width: 50%;
+}
+
+
+.divForm{
+  text-align: right;
+  margin: 10px 15px;
+}
+
+.fieldDiv{
+  display: flex;
+}
+
+.inputField{
+  flex:1;
+  height: 27px;
+  text-align: right;
+  font-family: 'Cairo', sans-serif;
+}
+
+
+.inputLabel{
+  flex:1;
+  font-size: 20px;
+  position: relative;
+  bottom: 5px;
+}
+
+
+.divTitle{
+  text-align: center;
+  background-color: #E1E1E1;
+  /* border: solid red 1px; */
+  position: relative;
+  bottom: 20px;
+  width: fit-content;
+  margin: auto;
+  font-size: 20px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.infoDiv{
+  display: flex;
+  text-align: right;
+  margin-right: 30px;
+  height: 40px;
+  font-size: 12px;
+  position: relative;
+  bottom: 20px;
+}
+
+.infoHeader{
+  flex : 1;
+}
+
+.infoContent{
+  flex: 1;
+}
+
+.subHeader{
+  /* border: solid red 1px; */
+  margin: 0 60px;
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+}
+
+
+.subHeader2{
+  /* border: solid red 1px; */
+  margin: 0 60px;
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.subTable{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subField{
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.calcButtonDiv{
+  text-align: center;
+  margin: auto;
+}
+
+.addButtonDiv{
+  text-align: right;
+}
+
+.calcButton{
+  font-size: 18px;
+  font-family: 'Cairo', sans-serif;
+  margin: 25px;
+}
+
+rowsPhone {
+  display: none;
+}
+
+/* Phone Size  */
+
+@media screen and (max-width: 600px){
+
+}
